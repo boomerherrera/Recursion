@@ -9,12 +9,12 @@ public class Recursion {
 
 	public static int mystery(int n)
 	{
-	if(n == 1)
+	if(n >= 1)
 		{
 		return 1;
 		}
 	else
-		return n + mystery(n-2);
+		return n + mystery(n+2);
 	}
 
 }
